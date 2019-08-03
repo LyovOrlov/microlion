@@ -1,6 +1,6 @@
 
 # Mapbook Android
-This  is home to the mobile mapbook ap(https://developers.arcgis.com/android/) Replace the paper maps you use for field work with offline maps. **Note:** this app is meant for tablets only and won't render properly on phone screens.
+This  is home to the mobile mapbook . Replace the paper maps you use for field work with offline maps. **Note:** this app is meant for tablets only and won't render properly on phone screens.
 
 
 ## Features
@@ -62,7 +62,7 @@ Once you have forked the repo, you can make a clone
 
 
 1. In the Terminal (for Mac users) or command prompt (fow Windows and Linux users) type ```git remote -v``` to list the current configured remote repo for your fork.
-2. ```git remote add upstream https://github.com/Esri/mapbook-android``` to specify new remote upstream repository that will be synced with the fork. You can type ```git remote -v``` to verify the new upstream.
+2.  to specify new remote upstream repository that will be synced with the fork. You can type ```git remote -v``` to verify the new upstream.
 
 If there are changes made in the Original repository, you can sync the fork to keep it updated with upstream repository.
 
@@ -73,7 +73,7 @@ If there are changes made in the Original repository, you can sync the fork to k
 
 
 ## Testing With Robotium
-The project includes a small suite of Robotium tests that test various features of the application.  The Robotium tests for the mapbook-app will run best on an attached device, rather than in the emulator.  Use the following steps to configure your environment for running the tests.  During some of the tests, screen shots are captured by Robotium and by default are stored in the /sdcard/Robotium-Screenshots/ directory on the device.  See (http://recorder.robotium.com/javadoc/com/robotium/solo/Solo.html#takeScreenshot()) for more information.
+The project includes a small suite of Robotium tests that test various features of the application.  The Robotium tests for the mapbook-app will run best on an attached device, rather than in the emulator.  Use the following steps to configure your environment for running the tests.  During some of the tests, screen shots are captured by Robotium and by default are stored in the /sdcard/Robotium-Screenshots/ directory on the device.  
 
 1.  Attach a non-emulated Android device to your computer.
 2.  Ensure location services are enabled on the Android device.
