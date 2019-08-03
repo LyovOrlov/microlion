@@ -1,5 +1,5 @@
 
-# Mapbook Android
+# Mapbook-conpep
 This  is home to the mobile mapbook . Replace the paper maps you use for field work with offline maps. **Note:** this app is meant for tablets only and won't render properly on phone screens.
 
 
